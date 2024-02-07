@@ -1,8 +1,3 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import moment from 'moment';
 
-console.log(React, ReactDOM);
-
-import('./render').then(exports => {
-    exports.render()
-})
+moment([2007, 0, 28]).format('dddd, MMMM Do YYYY');
